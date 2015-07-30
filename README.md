@@ -11,16 +11,16 @@ Current Patterns:
 
 | Pattern | Description |
 |:-------:| ----------- |
-| [3-tier](3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
-| [abstract_factory](abstract_factory.py) | use a generic function with specific factories |
-| [adapter](adapter.py) | adapt one interface to another using a whitelist |
-| [borg](borg.py) | a singleton with shared-state among instances |
-| [bridge](bridge.py) | a client-provider middleman to soften interface changes |
-| [builder](builder.py) | call many little discrete methods rather than having a huge number of constructor parameters |
+| [3-tier(三层架构)](3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
+| [abstract_factory(抽象工厂)](abstract_factory.py) | use a generic function with specific factories |
+| [adapter(适配器模式)](adapter.py) | adapt one interface to another using a whitelist |
+| [borg(单例模式)](borg.py) | a singleton with shared-state among instances |
+| [bridge(桥接模式)](bridge.py) | a client-provider middleman to soften interface changes |
+| [builder(建造者模式)](builder.py) | call many little discrete methods rather than having a huge number of constructor parameters |
 | [catalog](catalog.py) | general methods will call different specialized methods based on construction parameter |
-| [chain](chain.py) | apply a chain of successive handlers to try and process the data |
-| [chaining_method](chaining_method.py) | continue callback next object method |
-| [command](command.py) | bundle a command and arguments to call later |
+| [chain(链模式)](chain.py) | apply a chain of successive handlers to try and process the data |
+| [chaining_method()](chaining_method.py) | continue callback next object method |
+| [command(命令模式)](command.py) | bundle a command and arguments to call later |
 | [composite](composite.py) | encapsulate and provide access to a number of different objects |
 | [decorator](decorator.py) | wrap functionality with other functionality in order to affect outputs |
 | [facade](facade.py) | use one class as an API to a number of others |
